@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameer Hamza | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Muhammad Ameer Hamza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Hi, I'm <span class="highlight">Muhammad Ameer Hamza</span></h2>
+            <p>Mobile App & Backend Developer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- <img src="your-photo.jpg" alt="Your Name" class="profile-img"> -->
+                <p> I am aSoftware Engineer, recently graduated from Bahria University. I bring a strong background in
+                    cross-platform
+                    mobile application development using Flutter.My portfolio includes impactful projects such as the
+                    HRMS/CMS app
+                    Manxel and the e-commerce platform Clawset, reflecting my dedication to innovation and enhancing
+                    user
+                    experience..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="flutter_logo.png" class="custom-icon" alt="Flutter Logo" />
+                    <p>Flutter</p>
+                </div>
+                <div class="skill">
+                    <img src="dart_logo.png" class="custom-icon" alt="Flutter Logo" />
+                    <p>Dart</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-sitemap"></i>
+                    <p>GetX / Bloc / Provider</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-plug"></i>
+                    <p>API Integration</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <p>SQLite / Hive</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-fire"></i>
+                    <p>Firebase</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-git-alt"></i>
+                    <p>Git & GitHub</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <p>MongoDB</p>
+                </div>
+                <!-- Add more skills if needed -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Alnoor App</h3>
+                    <ul>
+                        <li>Al-Noor Lasani created this virtual moodboard to simplify the décor selection process.</li>
+                        <li>Users can choose and match décor colors based on their preferences.</li>
+                        <li>Compare décors offline with locally stored data and images.</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.al_noor.moodboards&hl=en"
+                        class="btn btn-primary">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Video Recording App</h3>
+                    <ul>
+                        <li>Developed a Flutter app that records gameplay sessions and allows real-time score assignment
+                            based on player performance.</li>
+                        <li>Automatically determines the winner at the end of each game and saves all data — including
+                            match history and recordings — in local storage.</li>
+
+                    </ul>
+                    <a href="https://github.com/hamzabhiinder/video_recording_game" class="btn btn-primary">View
+                        Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>E-Commerce App</h3>
+                    <ul>
+                        <li>Built using Flutter and Firebase with cart & checkout flow.</li>
+                        <li>Includes product listing, filtering, and order tracking.</li>
+                    </ul>
+                    <a href="https://github.com/hamzabhiinder/ShoeShopClientFrontEnd" class="btn btn-primary">View
+                        Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Manxel App</h3>
+                    <ul>
+                        <li>HRMS system with modules like attendance and payroll.</li>
+                        <li>Developed in Flutter and Firebase for cross-platform use.</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.rocketdigital.hrms.app&hl=en"
+                        class="btn btn-primary">View Project</a>
+                </div>
+
+                <!-- Add more projects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Muhammad Ameer Hamza. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/hamzabhiinder"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ameerhamza052/"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="#"><i class="fab fa-gmail"></i></a> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
